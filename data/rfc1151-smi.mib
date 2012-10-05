@@ -1,0 +1,8 @@
+MIB-BEGIN RFC1155-SMI
+IMPORTS dod SNMPv2-SMI 
+internet dod 1
+directory internet 1
+mgmt internet 2
+experimental internet 3
+private internet 4
+enterprises private 1

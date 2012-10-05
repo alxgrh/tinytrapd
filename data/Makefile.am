@@ -1,0 +1,9 @@
+tinytrapddatadir=$(datadir)/tinytrapd
+tinytrapddata_DATA = README
+tinytrapdmibsdir=$(datadir)/tinytrapd/mibs
+tinytrapdmibs_DATA = if-mib.mib rfc1151-smi.mib  rfc1213-mib.mib 
+tinytrapdinitrddir=$(sysconfdir)/rc.d/init.d/
+tinytrapdinitrd_DATA=tinytrapd
+tinitrapdetcdir=$(sysconfdir)/tinytrapd
+tinitrapdetc_DATA= tinytrapd.conf
+dist_bin_SCRIPTS = mib2cfg.pl
