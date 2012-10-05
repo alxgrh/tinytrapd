@@ -1,0 +1,1 @@
+/home/alexey/.codelite/workspace/trapsend/datahandler.h
