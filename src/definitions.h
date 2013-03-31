@@ -36,7 +36,7 @@
 #include <syslog.h>
 
 #define BUFLEN 1500
-#define PORT 9930
+#define PORT 162
 
 
 #define DEFAULT_USER "alexey"
